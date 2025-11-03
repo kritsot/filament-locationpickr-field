@@ -4,10 +4,13 @@ namespace ArberMustafa\FilamentLocationPickrField\Infolists\Components;
 
 use Closure;
 use Filament\Infolists\Components\Entry;
+use JsonException;
 
 class LocationPickr extends Entry
 {
     protected string $view = 'filament-locationpickr-field::infolists.components.locationpickr';
+
+    private int $precision = 8;
 
     protected array | Closure | null $defaultLocation = [0, 0];
 

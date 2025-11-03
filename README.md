@@ -9,9 +9,10 @@ This package provides just a simplified location picker field within [Filament](
 You can install the package into a Laravel app that uses [Filament](https://filamentphp.com) via composer::
 
 ```bash
-composer require arbermustafa/filament-locationpickr-field:"^2.0.0"
+composer require arbermustafa/filament-locationpickr-field:"^3.0.0"
 ```
 
+**Filament V3** - if you are using Filament v3.x, you can use [2.x](https://github.com/arbermustafa/filament-locationpickr-field/tree/2.x) branch.
 **Filament V2** - if you are using Filament v2.x, you can use [1.x](https://github.com/arbermustafa/filament-locationpickr-field/tree/1.x) branch.
 
 You can publish the config file with:
